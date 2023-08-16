@@ -1,0 +1,21 @@
+
+div{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(120, 178, 229); 
+   /* margin: 10px; */
+   border: 2px solid salmon;
+}
+
+body{
+    margin: 0;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+

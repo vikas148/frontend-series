@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/bg.webp);
+    height: 110vh;
+}
+
+header{
+    /* border: 2px solid wheat; */
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logobox{
+    /* border: 2px solid red; */
+    display: inline-block;
+    font-size: larger;
+    transition: all 0.5s;
+    width: 150px;
+    font-weight: 500px;
+}
+
+.logobox:hover{
+    color: salmon;
+}
+
+.navbox{
+    /* border: 2px solid green; */
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+
+}
+
+
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbox>a:hover{
+    color: salmon;
+}
+#homie{
+    color: salmon;
+}
+
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid white; */
+    position: relative;
+    width: 500px;
+    top: 60px;
+    left: 100px;
+}
+
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid white; */
+    font-size: 40px;
+    position: relative;
+    width: 500px;
+    left: 100px;
+}
+
+
+.heading+h3+p{
+    color: white;
+    font-family: 'Roboto';
+    /* border: 2px solid white; */
+    font-style: italic;
+    position: relative;
+    width: 400px;
+    word-spacing: 4px;
+    top: 20px;
+    left: 100px;
+}
+
+.btn{
+    width: 150px;
+    padding: 16px;
+    border: none;
+    background-color: salmon;
+    border: 2px solid salmon;
+    color:black;
+    top: 20px;
+    font-family: 'Roboto';
+    font-weight: 600px;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+    transition: all 0.5s;    
+}
+
+.btn:hover{
+    background-color: black;
+    color:white ;
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    border: 2pxx solid white;
+}

@@ -1,0 +1,33 @@
+p{
+    color: crimson;
+    /* background-color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+
+    text-transform: capitalize;
+    text-decoration:line-through;
+    text-indent: 25%;
+    line-height: 20px;
+    /* letter-spacing:20px; */
+    text-shadow: 0 0 5px black  ;
+    word-spacing: 20px;
+}
+
+
+h1{
+    color: greenyellow;
+    text-shadow: 0 0 5px black;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 40px;
+    /* background: brown; */
+    background-image: url('/google\ facts.jpg');
+}

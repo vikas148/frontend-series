@@ -1,0 +1,9 @@
+
+
+/* universal selector */
+*{
+   color: aqua; 
+   background-color: black ;
+}
+
+/* element selector */

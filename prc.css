@@ -1,0 +1,19 @@
+div{
+    background-color: aqua;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.navbar{
+border: 2px solid black;
+}
+
+nav ul{
+  list-style: none;
+   
+      
+}
+
+ nav ul a{
+    text-decoration: none;
+}

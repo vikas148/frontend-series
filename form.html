@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <!-- <div id="navbar">This is my navbar</div>
+
+     <div id="section1" class="section">This is my home section</div>
+     <div id="section2" class="section">This is my home section</div>
+     <div id="section3" class="section">This is my home section</div>
+
+     <div id="footer">this is my footer section</div> -->
+
+     
+    <form action="" method="post">
+        <h1>Contact Us</h1>
+        <div>
+            Name:<input required type="text" name="username" id="name" placeholder="Enter your name ">
+        </div><br>
+        <div>
+            Email: <input required type="email" name="usermail" id="email">
+        </div><br>
+
+        <div>
+            Message:<textarea required name="usermassage" id="message" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <div>
+            Number: <input required type="number" name="usernumber" id="number">
+        </div><br>
+        <div>
+            Gender:<select required name="usergender" id="genser">
+                <option value="choose">choose</option>
+              <option value="Male">Male</option>
+              <option value="FeMale">FeMale</option>
+              <option value="Trans">Trans</option>
+            </select>
+        </div><br>
+
+        <div class="checky">
+            Frontend: <input required type="checkbox" name="skills" id="Frontend">
+            Backend: <input type="checkbox" name="skills" id="Backend">
+        </div><br>
+
+        <fieldset> 
+            <legend>Mode of payment</legend>    
+            Cash:<input required type="radio" name="payment" id="cash">
+            Online:<input type="radio" name="payment" id="bank ">
+        </fieldset><br>
+
+        <div>
+            Password:<input required type="password" name="password" id="password">
+        </div><br>
+
+        <div>
+            <input required type="submit" value="submit">
+        </div><br>
+    </form> 
+</body>
+
+</html>

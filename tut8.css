@@ -1,0 +1,30 @@
+body{
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(113, 113, 190);
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.small{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid black;
+    width: 200px;
+}
+
+.ok{
+    background-color: rgb(245, 59, 59);
+}
+
+
+h1{
+    border: 2px solid black;
+    padding: 20px;
+}
